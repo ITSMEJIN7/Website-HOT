@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.10),rgba(0,0,0,0.10)),url(bg2.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 100%;
+    margin: auto;
+    padding: 35px 10x;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 65px;
+    background-color: #E1C699;
+    opacity: 0.9
+}
+.logo{
+    margin: 40;
+    width: 45px;
+    cursor: pointer;
+    opacity: 1;
+}
+.logo2{
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    margin: 94;
+    font-size: 20;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.navbar ul li::after{
+    content:'';
+    height: 3px;
+    width: 0;
+    background: #fff;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width: 100%;
+    position:absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 60px;
+}
+.content p{
+    margin: 20px auto;
+    font-weight: 100;
+    line-height: 25px;
+    font-weight: normal;
+    color: #fff;
+}
+button{
+    width: 200px;
+    padding: 15px 0;
+    text-align: center;
+    margin: 20px 10px;
+    border-radius: 26px;
+    font-weight: bold;
+    border: 2px solid #E1C699;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    background: transparent; 
+}
+
+span{
+    background: #E1C699;
+    height: 100%;
+    width: 0%;
+    border-radius: 25x;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+    z-index: -1;
+}
+button:hover {
+  background-color: #E1C699;
+  color: white;
+  opacity: 0.9;
+}
