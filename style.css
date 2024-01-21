@@ -80,6 +80,26 @@
     font-weight: normal;
     color: #fff;
 }
+.content ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 76;
+    position: relative;
+    padding: 6px 20;
+    border-radius: 26px;
+    font-weight: bold;
+    border: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+    position: relative;
+    background: #fff
+}
+.content ul li a{
+    text-decoration: none;
+    color: #E1C699;
+    text-transform: uppercase;
+    font-weight: 600;
+}
 button{
     width: 200px;
     padding: 15px 0;
@@ -110,24 +130,4 @@ button:hover {
   background-color: #E1C699;
   color: white;
   opacity: 0.9;
-}
-.btn ul li{
-    list-style: none;
-    display: inline-block;
-    margin: 0 76;
-    position: relative;
-    padding: 6px 20;
-    border-radius: 26px;
-    font-weight: bold;
-    border: 2px solid #fff;
-    color: #fff;
-    cursor: pointer;
-    position: relative;
-    background: #fff
-}
-.btn ul li a{
-    text-decoration: none;
-    color: #E1C699;
-    text-transform: uppercase;
-    font-weight: 600;
 }
