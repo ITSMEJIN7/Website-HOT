@@ -111,7 +111,7 @@ button:hover {
   color: white;
   opacity: 0.9;
 }
-.content ul li{
+.btn ul li{
     list-style: none;
     display: inline-block;
     margin: 0 76;
@@ -125,7 +125,7 @@ button:hover {
     position: relative;
     background: #fff
 }
-.content ul li a{
+.btn ul li a{
     text-decoration: none;
     color: #E1C699;
     text-transform: uppercase;
